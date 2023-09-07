@@ -77,7 +77,16 @@ p {
 }
 
 .dropdown-sprints:hover .sprint-list {
-  display: block;
+  display: inline-block;
+  text-align: left;
+}
+
+.contact-links {
+  display: none;
+}
+
+.dropdown-contact:hover .contact-links {
+  display: inline-block;
   text-align: left;
 }
 
@@ -96,3 +105,4 @@ p {
 .photo-me:hover {
   border-color: rgb(238, 146, 40);
 }
+
