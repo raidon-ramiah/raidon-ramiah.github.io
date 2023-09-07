@@ -117,3 +117,23 @@ p {
 .photo-me:hover {
   border-color: rgb(238, 146, 40);
 }
+
+.link-in-text {
+  color: aqua;
+}
+
+.link-in-text:hover {
+  color: rgb(238, 146, 40);
+}
+
+.question {
+  font-weight: 800;
+  padding: 10px;
+  background-color: rgb(62, 62, 62);
+}
+
+.answer {
+  list-style-type: none;
+
+  padding: 20px;
+}
