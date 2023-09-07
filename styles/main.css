@@ -81,6 +81,12 @@ p {
   text-align: left;
 }
 
+.dropdown-sprints:hover #sprints-links {
+  border-style: dashed;
+  border-width: 0 0px 3px 0;
+  border-color: aqua;
+}
+
 .contact-links {
   display: none;
 }
@@ -88,6 +94,12 @@ p {
 .dropdown-contact:hover .contact-links {
   display: inline-block;
   text-align: left;
+}
+
+.dropdown-contact:hover #contact {
+  border-style: dashed;
+  border-width: 0 0px 3px 0;
+  border-color: aqua;
 }
 
 .photo-me {
@@ -105,4 +117,3 @@ p {
 .photo-me:hover {
   border-color: rgb(238, 146, 40);
 }
-
