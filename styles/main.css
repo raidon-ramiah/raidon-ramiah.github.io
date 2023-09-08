@@ -1,11 +1,12 @@
 body {
   background-image: linear-gradient(
       to bottom,
-      rgb(62, 62, 62),
-      rgba(0, 0, 0, 0.196)
+      rgba(0, 0, 0, 0.864),
+      rgba(34, 185, 223, 0.131)
     ),
     url(../images/smoke.jpeg);
 
+  /* rgba(40, 34, 223, 0.556) */
   /*  background-image: linear-gradient(rgba(62, 62, 62, 0), rgba(0, 0, 0, 0.5));*/
   margin: 0;
   background-repeat: repeat;
@@ -34,9 +35,9 @@ body {
 .navigation a.active {
   background-color: rgb(62, 62, 62);
   border-style: solid;
-  border-width: 0px 0px 3px 0px;
+  border-width: 0px 0px 1px 0px;
   border-color: aqua;
-  margin: -3px;
+  margin: -1px;
 }
 
 .navigation a:hover {
@@ -49,11 +50,13 @@ h1 {
   text-align: center;
   padding: 1.5vw;
   border-style: solid;
-  border-width: 0px 0px 3px 0px;
+  border-width: 0px 0px 1px 0px;
   border-color: aqua;
   color: rgb(238, 146, 40);
   margin: 0;
   font-size: 45px;
+  margin-inline-start: 30vw;
+  margin-inline-end: 30vw;
 }
 
 h1:hover {
@@ -62,18 +65,21 @@ h1:hover {
 
 h2 {
   color: rgb(238, 146, 40);
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .text-body-bg {
-  background-color: #26262684;
+  background-color: #26262664;
   color: rgb(255, 255, 255);
   padding: 1.5vw;
+  padding-bottom: 10vh;
   border-style: solid;
-  border-width: 0px 0px 3px 0px;
+  border-width: 0px 0px 0px 0px;
   border-color: aqua;
   padding-left: 20vw;
   padding-right: 20vw;
+  margin-inline-start: 5vw;
+  margin-inline-end: 5vw;
 }
 
 .text-body-bg:hover {
@@ -101,9 +107,9 @@ p {
 
 .dropdown-sprints:hover #sprints-links {
   border-style: dashed;
-  border-width: 0 0px 3px 0;
+  border-width: 0 0px 1px 0;
   border-color: aqua;
-  margin: -3px;
+  margin: -1px;
 }
 
 .contact-links {
@@ -117,20 +123,20 @@ p {
 
 .dropdown-contact:hover #contact {
   border-style: dashed;
-  border-width: 0 0px 3px 0;
+  border-width: 0 0px 1px 0;
   border-color: aqua;
-  margin: -3px;
+  margin: -1px;
 }
 
 .photo-me {
-  width: 70%;
+  width: 100%;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
   border-style: solid;
-  border-width: 3px;
+  border-width: 1px;
   border-color: rgb(62, 62, 62);
 }
 
