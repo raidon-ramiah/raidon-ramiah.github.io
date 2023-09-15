@@ -70,7 +70,7 @@ h2 {
 }
 
 .text-body-bg {
-  background-color: #26262664;
+  background-color: #262626bf;
   color: rgb(255, 255, 255);
   padding: 1.5vw;
   padding-bottom: 10vh;
@@ -85,7 +85,7 @@ h2 {
 
 .text-body-bg:hover {
   border-color: rgb(238, 146, 40);
-  background-color: #262626bf;
+  background-color: #1e1e1ec8;
   transition: 800ms;
 }
 
@@ -159,7 +159,14 @@ p {
 .question {
   font-weight: 800;
   padding: 10px;
-  background-color: rgb(62, 62, 62);
+  background-color: rgb(238, 146, 40);
+}
+
+.special-question {
+  font-weight: 800;
+  padding: 10px;
+  background-color: aqua;
+  color: black;
 }
 
 .answer {
